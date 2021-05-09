@@ -1,0 +1,29 @@
+body{
+	font-family: verdana;
+	font-size: 60px;
+	color: #ffd56b;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #ff7b54;
+}
+
+
+.container {
+	display: inline-grid;
+	text-align: center;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	padding: 10px;
+}
+
+.item {
+	border: solid;
+	border-color: #ffb26b;
+	border-width: 3px;
+	display: flex;
+	font-size: 80px;
+	justify-content: center;
+	align-items: center;
+}
